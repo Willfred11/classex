@@ -5,11 +5,8 @@ nav_btn.addEventListener('click', showNav)
 function showNav(){
 
     // alert('working')
-
-       const navbar = document.querySelector('nav')
-
+    const navbar = document.querySelector('.viewpoint')
+       
        navbar.classList.toggle('.display-nav')
 
-
-      nav_btn.classList.toggle('.up-btn')
 }
